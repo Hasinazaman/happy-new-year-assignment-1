@@ -243,6 +243,7 @@ section{
     width: 75%;
     text-align: center;
     margin: 0 auto;
+    padding: 3%;
 
 }
 .what-is-function h4{
@@ -276,14 +277,14 @@ font-weight: 900;
 
 .images-width{
     background-image: url("resources/Group\ 75.png"),url("resources/Rectangle\ 1.png"),url("resources/Rectangle\ 2.png");
-    /* background-image: url("resources/Rectangle\ 1.png"); */
     background-repeat: no-repeat;
-    background-position: bottom left, top right, bottom;
+    background-position: bottom left,bottom right,bottom ;
     margin: 0 auto;
     width: 75%;
     height: 100vh;
     padding: 0 10px;
 }
+
 
 /* what is functional styles end */
 
