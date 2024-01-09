@@ -194,6 +194,7 @@ section{
     gap: 4%;
     padding-left: 1%;
     align-items: center;
+    background-color: #F00;
    
 }
 .new-best-container h3{
@@ -239,33 +240,37 @@ section{
 
 /* what is functional styles start */
 
-.what-is-function{
+.holiday-container{
+    /* overflow: hidden; */
     width: 75%;
-    text-align: center;
+    max-width: 1600px;
+    height: 100vh;
     margin: 0 auto;
-    padding: 3%;
+    border-radius: 16px;
+    background-color: aqu;
+}
+.holiday-text{
+    text-align: center;
+    padding: 0 4% 4% 4%;
 
 }
-.what-is-function h4{
-        color: #070211;
+.holiday-text h3{
+    color: #070211;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
 }
-.what-is-function h1{
-    color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-}
-
-.what-is-function h1 span{
+.holiday-text h1{
     color: #F00;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
 }
-.what-is-function p{
+.holiday-text span{
+    color: #070211;
+}
+.holiday-text p{
+    max-width: 1068px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -273,16 +278,37 @@ font-weight: 900;
     line-height: 32px; /* 160% */
 }
 
-/* img */
-
-.images-width{
-    background-image: url("resources/Group\ 75.png"),url("resources/Rectangle\ 1.png"),url("resources/Rectangle\ 2.png");
-    background-repeat: no-repeat;
-    background-position: bottom left,bottom right,bottom ;
-    margin: 0 auto;
-    width: 75%;
-    height: 100vh;
-    padding: 0 10px;
+/* 50% img */
+.discount-img{
+   width: 100%;
+   height: 100vh;
+}
+.imag{
+    position: relative;
+    
+}
+.girl{
+    right: -54.7%;
+    top: 1%;
+    z-index: 1;
+}
+ .red-border img{
+    width: 100%;
+    z-index: 2;
+}
+.discount{
+    top: -88%;
+    right: -38%;
+    z-index: 4;
+}
+.box{
+    bottom: 160%;
+    right: 11%;
+    z-index: 3;
+   
+}
+.box img{
+    width: 70%;
 }
 
 
@@ -291,6 +317,7 @@ font-weight: 900;
 /* the best gift styles start */
 
 .best-gift{
+    overflow: hidden;
     width: 75%;
     max-width: 1600px;
     margin: 0 auto;
