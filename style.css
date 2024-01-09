@@ -193,9 +193,7 @@ section{
     margin: 0 auto;
     gap: 4%;
     padding-left: 1%;
-    align-items: center;
-    background-color: #F00;
-   
+    align-items: center;   
 }
 .new-best-container h3{
     color: #F00;
@@ -241,10 +239,10 @@ section{
 /* what is functional styles start */
 
 .holiday-container{
-    /* overflow: hidden; */
+    overflow: hidden;
     width: 75%;
     max-width: 1600px;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0 auto;
     border-radius: 16px;
     background-color: aqu;
@@ -389,35 +387,42 @@ section{
     padding-bottom: 3%;
     line-height: 32px; /* 160% */
 }
-
-/* form{
-    width: 648px;
-    height: 72px;
- 
-} */
-form .sub{
-    border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
-    flex-shrink: 0;
+.subscribe-container .subs{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+input[type=email]{
+    width: 50%;
+    height: 52px;
+    padding: 10px;
+    margin: px 0;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
     color: rgba(7, 2, 17, 0.30);
-    text-align: center;
+    text-align: center;    
     font-family: Inter;
     font-size: 18px;
-    padding: 2% 10% 2% 0%;
-    border: none;
     font-weight: 400;
-   
+  
 }
-form button{
-    color: #FFF;
-    background-color: #F00;
-    text-align: center;
+input[type=submit] {
+    width: 25%;
+    height: 72px;
+    padding: 10px;
+    margin: 8px 0;
+   border: none;
+   border-radius: 0px 50px 50px 0px;
+   background: #F00;
+   color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    border: none;
-    padding: 2% 4%;
-    border-radius: 0 40% 40% 0;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
 }
   
   /* Add the focus effect to the form so 
